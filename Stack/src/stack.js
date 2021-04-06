@@ -62,6 +62,6 @@ function Stack() {
   }
 }
 
-module.expots {
+module.exports = {
   Stack
 }
