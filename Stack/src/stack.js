@@ -61,3 +61,7 @@ function Stack() {
     return objString
   }
 }
+
+module.expots {
+  Stack
+}
