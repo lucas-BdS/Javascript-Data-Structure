@@ -29,12 +29,6 @@ function Stack() {
   }
 
   this.clear = () => {
-    count = 0
-    itens = {}
-    console.log(`\nPilha foi limpa(Método 1).\nPilha vazia? ${this.isEmpty()}\n`)
-  }
-
-  this.clear_2 = () => {
     while(!this.isEmpty())
       this.pop()
     console.log(`\nPilha foi limpa(Método 2).\nPilha vazia? ${this.isEmpty()}\n`)
