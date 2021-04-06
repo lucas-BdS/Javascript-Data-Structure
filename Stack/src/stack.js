@@ -6,7 +6,6 @@ function Stack() {
   // Métodos Públicos
   this.push = element => {
     itens[count] = element
-    console.log(`Elemento ${element}, adicionado a pilha`)
     count++
   }
 
