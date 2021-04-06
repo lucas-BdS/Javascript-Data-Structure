@@ -4,9 +4,9 @@ function Stack() {
   let itens = {}
 
   // Métodos Públicos
-  this.push = elemento => {
-    itens[count] = elemento
-    console.log(`Elemento ${elemento}, adicionado a pilha`)
+  this.push = element => {
+    itens[count] = element
+    console.log(`Elemento ${element}, adicionado a pilha`)
     count++
   }
 
@@ -18,9 +18,9 @@ function Stack() {
     if(this.isEmpty())
       return undefined
     count--
-    let topo = itens[count]
+    let top = itens[count]
     delete itens[count]
-    return topo
+    return top
   }
 
   this.peek = () => {
