@@ -46,6 +46,6 @@ function Queue(){
   }
 }
 
-export default {
+module.exports = {
   Queue
 }

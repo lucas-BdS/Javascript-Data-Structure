@@ -1,4 +1,4 @@
-import Stack from "./src/stack"
+const Stack = require("./src/stack")
 
 const baseConvert = (numDec, base) => {
   const stack = new Stack.Stack()
