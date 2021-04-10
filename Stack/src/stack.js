@@ -55,6 +55,6 @@ function Stack() {
   }
 }
 
- export default {
+module.exports = {
   Stack
 }
